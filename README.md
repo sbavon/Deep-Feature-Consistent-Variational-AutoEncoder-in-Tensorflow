@@ -1,7 +1,7 @@
 # Deep Feature Consistent Variational Autoencoder in Tensorflow
 
 This repository has an objective to implement Deep Feature Consisten Variational Autoencoder (DFC-VAE) according to [Deep Feature Consistent Variational Autoencoder](https://arxiv.org/abs/1610.00291).
-Tensorflow and Python3 are used for development, and pre-trained VGG16 is adapted from [VGG in TensorFlow](https://www.cs.toronto.edu/~frossard/post/vgg16/). The training data is [CelebA dataset] (http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+Tensorflow and Python3 are used for development, and pre-trained VGG16 is adapted from [VGG in TensorFlow](https://www.cs.toronto.edu/~frossard/post/vgg16/). The training data is [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
 To understand this following note, I would recommend to know the concept of Variational Autoencoder and generative model.
 
