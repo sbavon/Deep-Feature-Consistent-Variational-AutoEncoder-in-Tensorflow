@@ -7,9 +7,11 @@ To understand this following note, I would recommend to know the concept of Vari
 
 ## Results
 
-<figure 3>
-<figure 4>
-<figure 5>
+![Generated Image](Figures/figure_1.PNG)
+![Random Image](Figures/figure_2.PNG)
+![interpolated Image](outputs/test_interpolated/interpolate1.gif)
+
+Figure 3: Interpolated image
 
 ## Problem Statement
 
@@ -17,12 +19,12 @@ It is known that one major problem of plain Variational Autoencoder (Plain-VAE) 
 This is because the plain model's loss function is defined by pixel-wise comparison between input images and generated images. 
 As a consequence, optimizing model to achieve a great performance is difficult because slightly shifting or distorting those images can result in a very high loss. In other words, even the images have just slight difference in human eyes, computer treats that a big difference!
 
-<figure 1>
+![distorted image](Figures/figure_4.PNG)
 
 However, with DFC-VAE, the model leverages perceptual loss used in [Neural Style Transfer](https://github.com/sbavon/Neural-Style-Transfer-in-Tensorflow).
 With regard to [this paper](https://arxiv.org/abs/1508.06576), internal representations of convolutional neural networks could capture a content of the input image. This finding leads to the concept of perceptual loss, which compares the content - hidden representation - between images as oppose to calculate euclidean distant among pixels. 
 
-<figure 2>
+![model architecture](Figures/figure_5.PNG)
 
 ## Implementation
 
