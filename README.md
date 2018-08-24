@@ -19,7 +19,7 @@ As a consequence, optimizing model to achieve a great performance is difficult b
 
 <figure 1>
 
-However, with DFC-VAE, the model leverages perceptual loss used in [Neural Style Transfer] (https://github.com/sbavon/Neural-Style-Transfer-in-Tensorflow).
+However, with DFC-VAE, the model leverages perceptual loss used in [Neural Style Transfer](https://github.com/sbavon/Neural-Style-Transfer-in-Tensorflow).
 With regard to [this paper](https://arxiv.org/abs/1508.06576), internal representations of convolutional neural networks could capture a content of the input image. This finding leads to the concept of perceptual loss, which compares the content - hidden representation - between images as oppose to calculate euclidean distant among pixels. 
 
 <figure 2>
@@ -38,8 +38,8 @@ The solution contains four files
 ### Step-by-Step execution
 
 #### Download and preprocess data
-1. Download pre-trained VGG weights from [VGG in TensorFlow] (https://www.cs.toronto.edu/~frossard/post/vgg16/)
-2. Download CelebA dataset from [CelebA dataset] (http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+1. Download pre-trained VGG weights from [VGG in TensorFlow](https://www.cs.toronto.edu/~frossard/post/vgg16/)
+2. Download CelebA dataset from [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 3. Compress data in Zip
 4. Process images (crop and resize) and convert them to TFRecord format (refer to *write_tfrecord()* function in *util.py*)
 
