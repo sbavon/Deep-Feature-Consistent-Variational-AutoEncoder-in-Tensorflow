@@ -55,5 +55,8 @@ The solution contains four files
 - Beta value is extremely significant. You need to adjust the value to make sure the model produce a great result
 - Save file in *.png* format for a better quality image
 
-## Reference and Recommended Readings
+## References
+- [Deep Feature Consistent Variational Autoencoder](https://arxiv.org/abs/1610.00291)
+- [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
+- [VGG in TensorFlow](https://www.cs.toronto.edu/~frossard/post/vgg16/)
 
